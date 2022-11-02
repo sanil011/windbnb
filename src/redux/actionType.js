@@ -1,0 +1,5 @@
+export const SHOW = 'SHOW'
+export const CITY = 'CITY'
+export const GUEST = 'GUEST'
+export const SHOW_SIDE = 'SHOW_SIDE'
+export const DETAIL ='DETAIL'
