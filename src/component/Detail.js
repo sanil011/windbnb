@@ -24,7 +24,7 @@ const Detail = () => {
   
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 1100 ){
+    if (scrolled > 1200 ){
         setVisibleScroll(true)
 
         setVisible(false)
@@ -83,7 +83,7 @@ const Detail = () => {
              </div> 
             </div>          
           </div>  
-          <div className='w-full mobile:w-[60%] '>
+          <div className=' phone:w-full w-[60%] '>
           <div className='flex  justify-between'>
               <div className='w-[70%]'>
               <h4 className='text-xl font-bold '>{detail.type} by daleep</h4>
