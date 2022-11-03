@@ -43,7 +43,7 @@ function Home() {
              <h4 className="text-2xl">(2,3,6 guest)</h4>
           </div>}
       </div>
-      { showSide && <div className='w-52 h-60 px-4 flex flex-col justify-around right-20 rounded-lg z-50 top-24 absolute bg-white shadow-lg shadow-slate-900' >
+      { showSide && <div className='w-52 h-60 px-4 flex flex-col justify-around right-20 rounded-lg z-50 -top-5 absolute bg-white shadow-lg shadow-slate-900' >
         <p className="font-bold">Signup</p>
         <p className="font-[100]">Log in</p>
         <hr/>
